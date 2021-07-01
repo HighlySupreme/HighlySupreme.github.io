@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+}
+
+.navbarEdit{
+    background: linear-gradient(rgb(47,150,163), rgb(48, 62, 143));
+}
+
+nav .navbar-nav li a{
+    text-align: center;
+}
+
+/*profile display image*/
+@media (max-width:770px) {
+    #profile {
+      display: none;
+    }
+  }
+#profile {
+
+	border-radius:50%;
+	width: 180px;
+	height: 180px;
+	background-color: #D3D3D3;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    
+}
+
+
+/*profile display image end*/
+
+/*social icons style*/
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	padding: auto;
+    
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoInstagram:hover {
+    background: linear-gradient(rgb(138, 58, 185), rgb(233, 89, 80), rgb(188, 42, 141), rgb(252, 204, 99), rgb(251, 173, 80), rgb(205, 72, 107), rgb(76, 104, 215));
+	
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoGithub:hover {
+	background-color:#211F1F;
+}
+
+.social-network a.icoFacebook:hover i, .social-network a.icoGithub:hover i,
+.social-network a.icoInstagram:hover i{
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 35px;
+	height: 35px;
+	font-size:20px;
+	background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.9s;
+	-moz-transition: all 0.9s;
+	-o-transition: all 0.9s;
+	-ms-transition: all 0.9s;
+	transition: all 0.9s;
+}
+/*social icons style end*/
