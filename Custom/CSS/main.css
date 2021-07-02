@@ -12,11 +12,15 @@ nav .navbar-nav li a{
 }
 
 /*profile display image*/
-@media (max-width:770px) {
+@media screen and (max-width: 766px) {
     #profile {
-      display: none;
+      display: none !important;
+    }
+    .social-circle{
+        display: none !important;
     }
   }
+ 
 #profile {
 
 	border-radius:50%;
