@@ -7,4 +7,8 @@ $(function(){
     });
 });
 
+/*mobile navbar close on click*/
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
 

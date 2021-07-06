@@ -1,46 +1,56 @@
 body{
     font-family: sans-serif;
+    font-size: 16px;
+    color: #717171;
+    padding-top: 10px;
+    text-align: justify;
 }
 
 .navbarEdit{
-    background: linear-gradient(rgb(47,150,163), rgb(48, 62, 143));
+    background: rgb(47,150,163);
+    
 }
 
 nav .navbar-nav li a{
     text-align: center;
-    padding: 15px;
-}
-
-/* paralax */
-
-
-
-
-
-/*profile display image*/
-@media screen and (max-width: 766px) {
-    #profile {
-      display: none !important;
-    }
-    .social-circle{
-        display: none !important;
-    }
-  }
- 
-#profile {
-
-	border-radius:50%;
-	width: 180px;
-	height: 180px;
-	background-color: #D3D3D3;
-    margin: auto;
-    margin-top: 20px;
-    display: block;
+    padding: 10px;
+    font-size: 16px;
     
 }
+@media only screen and (min-width: 768px) {
+
+    #navbar{
+        margin-top:150%;
+    }
+}
 
 
-/*profile display image end*/
+.titles{
+    padding: 40px;
+    text-align: center;
+}
+
+
+.section{
+    height:100%;
+    width:100%;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing:border-box;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #b2dbfb;
+}
+
 
 /*social icons style*/
 
@@ -110,6 +120,13 @@ a.socialIcon:hover, .socialHoverClass {
 
 /*znanja*/
 
+#znanja p a{
+    color: #44BCDD;
+    text-decoration: none;
+}
+
+
+
 .box {
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -117,7 +134,32 @@ a.socialIcon:hover, .socialHoverClass {
     text-align: right;
     display: block;
     margin-top: 60px;
+    min-height: 48vh;
+    
 }
+
+@media (max-width: 1430px)  and (min-width: 1200px) {
+
+    .box{
+        min-height: 60vh;
+    }
+}
+
+
+@media (max-width: 1200px)  and (min-width: 990px) {
+
+    .box{
+        min-height: 54vh;
+    }
+}
+
+@media (max-width: 990px)  and (min-width: 768px) {
+
+    .box{
+        min-height: 75vh;
+    }
+}
+
 .box-icon {
     display: table;
     margin: 0 auto;
@@ -137,26 +179,20 @@ a.socialIcon:hover, .socialHoverClass {
     color: #717171;
     font-size: 16px;
     padding-top: 10px;
-    text-align: justify;
+    text-align: center;
 }
-.info > a {
-    background-color: #03a9f4;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    color: #fff;
-    transition: all 0.5s ease 0s;
-}
-.info > a:hover {
-    background-color: #0288d1;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
-    color: #fff;
-    transition: all 0.5s ease 0s;
-}
+
 
 /*znanje end*/
 
 
 /*delovne izkušnje*/
+
+.theList{
+    list-style-type:none;
+    padding: 0px;
+}
+
 .main-timeline {
     position: relative
 }
@@ -487,19 +523,19 @@ a.socialIcon:hover, .socialHoverClass {
 .main-timeline_two .title{
     display: inline-block;
     padding: 10px;
-    background: #fff;
-    border-radius: 8px;
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: 800;
     color: #333;
 }
 .main-timeline_two .description{
-    padding: 20px;
-    background: rgb(254, 254, 254);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-    font-size: 14px;
-    color: #003f5b;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #717171;
+    padding-top: 10px;
+    text-align: justify;
+
+    
 }
 .main-timeline_two .timeline_two-content.left{
     text-align: right;
@@ -507,12 +543,7 @@ a.socialIcon:hover, .socialHoverClass {
 .main-timeline_two .timeline_two-content.right{
     float: right;
 }
-.main-timeline_two .timeline_two-content.left .title{
-    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-}
-.main-timeline_two .timeline_two-content.right .title{
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15)
-}
+
 @media screen and (max-width: 767px){
     .main-timeline_two:before{
         left: 0;
@@ -531,3 +562,38 @@ a.socialIcon:hover, .socialHoverClass {
     }
 }
 /*end izobrazba*/
+
+/*footer*/
+
+footer{
+    height: 340px; 
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgb(47,150,163);
+    
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+footer h1{
+    color: white;
+    padding: 30px 0px !important;
+}
+
+footer i{
+    padding: 30px;
+}
+
+.ft{
+    background: rgb(47,150,163);
+}
+
+
