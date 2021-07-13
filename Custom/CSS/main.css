@@ -143,7 +143,7 @@ a.socialIcon:hover, .socialHoverClass {
 @media (max-width: 1430px)  and (min-width: 1200px) {
 
     .box{
-        min-height: 72vh;
+        min-height: 75vh;
     }
 }
 
@@ -160,6 +160,11 @@ a.socialIcon:hover, .socialHoverClass {
     .box{
         min-height: 75vh;
     }
+}
+@media screen and (min-height: 638px){
+    .box{
+        min-height: 80vh;
+    } 
 }
 
 .box-icon {
