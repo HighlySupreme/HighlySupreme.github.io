@@ -13,6 +13,7 @@ $('.navbar-collapse a').click(function(){
 });
 
 AOS.init({
+disable: window.innerWidth < 768,
 easing: 'ease-out-back',
 duration: 1000
 });
