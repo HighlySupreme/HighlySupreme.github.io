@@ -605,7 +605,8 @@ a.socialIcon:hover, .socialHoverClass {
 }
 /*end izobrazba*/
 
-/*footer*/
+
+    /*footer*/
 
 footer{
     height: 340px; 
@@ -633,7 +634,6 @@ footer a:hover{
 }
 
 footer h1{
-    
     padding: 30px 0px !important;
 }
 
