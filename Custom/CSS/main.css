@@ -604,11 +604,6 @@ a.socialIcon:hover, .socialHoverClass {
 }
 /*end izobrazba*/
 
-
-.aos-init:not(.aos-animate):after{
-    position:fixed
-}
-
     /*footer*/
 
 footer{
