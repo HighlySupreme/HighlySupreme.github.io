@@ -5,7 +5,6 @@ body{
     padding-top: 10px;
     text-align: justify;
     width: 100vw;
-
     --color-bright: #f2f1c6;
     --color-orange: #FF6138;
 }
@@ -605,6 +604,10 @@ a.socialIcon:hover, .socialHoverClass {
 }
 /*end izobrazba*/
 
+
+.aos-init:not(.aos-animate):after{
+    position:fixed
+}
 
     /*footer*/
 
