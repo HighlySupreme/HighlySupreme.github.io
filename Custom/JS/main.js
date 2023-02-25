@@ -12,15 +12,5 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 
-AOS.init({
-disable: window.innerWidth < 768,
-easing: 'ease-out-back',
-duration: 1000
-});
 
-AOS.init({
-    disable: function() {
-        var maxWidth = 800;
-        return window.innerWidth < maxWidth;
-    }
-});
+AOS.init({ disable: 'mobile' });
