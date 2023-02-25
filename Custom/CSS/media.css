@@ -9,6 +9,6 @@
     }
 
     #znanja .box-content .img-contain {
-        top: -73px;
+        top: -73px !important;
     }
 }
